@@ -1,13 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 .logo{
     width: 40px;
     padding: 10px;
+}
+.logo-facts{
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
 }
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(11, 164, 187, 0.1);
-    border-radius: 10px;
+    background-color: #333;
+    padding: 10px;
+    color: #f0f0f0
 }
 .nav-list{
     display: flex;
@@ -15,4 +28,8 @@
 }
 .nav-list > li {
     padding: 10px;
+}
+.main-header{
+    align-items: center;
+    justify-content: center;
 }
