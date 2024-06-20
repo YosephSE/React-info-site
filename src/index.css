@@ -1,0 +1,18 @@
+.logo{
+    width: 40px;
+    padding: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(11, 164, 187, 0.1);
+    border-radius: 10px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+.nav-list > li {
+    padding: 10px;
+}
