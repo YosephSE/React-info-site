@@ -1,7 +1,7 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
-}
+} */
 
 
 .logo{
@@ -13,6 +13,8 @@
     font-weight: bold;
     font-size: 20px;
     align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(69, 182, 227)
 }
 .header{
     display: flex;
@@ -20,7 +22,8 @@
     align-items: center;
     background-color: #333;
     padding: 10px;
-    color: #f0f0f0
+    border-radius: 10px;
+    color: #f0f0f0;
 }
 .nav-list{
     display: flex;
@@ -30,6 +33,21 @@
     padding: 10px;
 }
 .main-header{
-    align-items: center;
-    justify-content: center;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.ul-list {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 70px;
+}
+body{
+    color: #f0f0f0;
+    background-color: black;
+}
+.ul-list > li::marker{
+    height: 20px;
+    font-size: 30px;
+    color: rgb(7, 242, 203);
 }
